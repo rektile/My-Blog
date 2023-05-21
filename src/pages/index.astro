@@ -1,0 +1,26 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>Welcome to my Blog!</h1>
+			<p>Hello there! I'm Angelo Aguilar Morillo, and I'm excited to share my experiences with webinars, hackathons, personal projects, and all things related to cybersecurity. This blog will serve as a platform to document my journey and insights in the tech world.</p>
+
+			<p>I am passionate about cybersecurity and constantly seek opportunities to expand my knowledge and skills in this field. Through webinars and hackathons, I have gained valuable experience and learned practical techniques that I'm eager to share with you.</p>
+
+			<h2>What to Expect</h2>
+			<p>In this blog, I will provide detailed accounts of my experiences in webinars and hackathons, discussing the challenges, the solutions, and the lessons learned along the way. Additionally, I will showcase my personal projects related to cybersecurity, offering insights and practical tips.</p>
+		</main>
+		<Footer />
+	</body>
+</html>

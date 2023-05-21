@@ -5,6 +5,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://angeloaguilarmorillo.be',
+	site: 'https://rektile.github.io',
 	integrations: [mdx(), sitemap()],
 });
